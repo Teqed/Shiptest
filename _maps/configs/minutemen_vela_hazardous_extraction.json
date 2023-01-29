@@ -1,0 +1,51 @@
+	{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Vela-Class Hazardous Extraction Vessel",
+	"prefix": "GOLD",
+	"namelists": ["GENERAL", "MYTHOLOGICAL", "BEASTS"],
+	"map_short_name": "Vela-Class",
+	"map_path": "_maps/shuttles/shiptest/minutemen_vela_hazardous_extraction.dmm",
+	"limit": 1,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/minutemen",
+			"officer": true,
+			"slots": 1
+		},
+		"Supply Officer": {
+			"outfit": "/datum/outfit/job/head_of_personnel/minutemen",
+			"officer": true,
+			"slots": 1
+		},
+		"GOLD Delegate":{
+			"outfit": "/datum/outfit/job/lawyer/goldie",
+			"officer": true,
+			"slots": 1
+		},
+		"Operations Coordinator": {
+			"outfit": "/datum/outfit/job/lawyer/opscoord",
+			"slots": 2
+		},
+		"Mech Pilot": {
+			"outfit": "/datum/outfit/job/miner/hazard/mech",
+			"slots": 4
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/engineer/minutemen",
+			"slots": 1
+		},
+		"Engineer": {
+			"outfit": "/datum/outfit/job/engineer/minutemen",
+			"slots": 2
+		},
+		"Minuteman": {
+			"outfit": "/datum/outfit/job/security/minutemen",
+			"slots": 2
+		},
+		"Cadet": {
+			"outfit": "/datum/outfit/job/assistant/minutemen",
+			"slots": 5
+		}
+	},
+	"enabled": true
+}
